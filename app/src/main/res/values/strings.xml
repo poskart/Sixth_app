@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Sixth_app</string>
+
+    <string name="action_settings">Settińgs</string>
+    <string name = "edit_message">Napiszże coś!</string>
+    <string name = "button_send">Send</string>
+    <string name = "title_activity_main">MainActivity</string>
+    <string name="title_activity_second_screen_activity">Second_screen_activity</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <color name="jakis_czerwony">#f00</color>
+    <string name="title_activity_hideaway">Hideaway</string>
+    <string name="info">Jestes w kryjówce!</string>
+</resources>
