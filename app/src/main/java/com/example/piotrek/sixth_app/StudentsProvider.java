@@ -16,9 +16,9 @@ import android.text.TextUtils;
 import java.net.ContentHandler;
 import java.util.HashMap;
 
-/**
- * Created by Piotrek on 2015-07-07.
- */
+    /**
+     * Created by Piotrek on 2015-07-07.
+     */
 public class StudentsProvider extends ContentProvider {
 
     static final String PROVIDER_NAME = "com.example.piotrek.provider.College";
@@ -60,9 +60,12 @@ public class StudentsProvider extends ContentProvider {
      * the privider's underlying data repository
      */
 
-    private static class DatabaseHelper extends SQLiteOpenHelper {
-        DatabaseHelper(Context context) {
+    private static class DatabaseHelper extends SQLiteOpenHelper
+    {
+        DatabaseHelper(Context context)
+        {
             super(context, DATABASE_NAME, null, DATABASE_VERSION);
+
         }
 
         @Override

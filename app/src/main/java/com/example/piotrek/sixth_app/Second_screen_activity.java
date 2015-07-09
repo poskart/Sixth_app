@@ -27,7 +27,7 @@ public class Second_screen_activity extends ActionBarActivity {
         TextView dodany_tekst = new TextView(this);
         dodany_tekst.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT));
         dodany_tekst.setText(message);
-        dodany_tekst.setBackgroundColor(0x3910482c);
+        dodany_tekst.setBackgroundColor(0x9910482c);
         dodany_tekst.setPadding(20, 20, 20, 20);
         lin_lay.addView(dodany_tekst);
 
